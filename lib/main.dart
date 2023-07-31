@@ -13,10 +13,14 @@ void main() {
 
   //! Added YamenView
 }
+<<<<<<< HEAD
+//!---noor-commentn---
+=======
 
 // hello esraa
 
 //!---noor-comment---
+>>>>>>> main
 
 
 class MyApp extends StatelessWidget {
