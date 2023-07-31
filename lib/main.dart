@@ -4,6 +4,7 @@ void main() {
   //!--- comment ---
   runApp(const MyApp());
 }
+//!---noor-comment---
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
