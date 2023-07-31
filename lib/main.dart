@@ -5,6 +5,8 @@ void main() {
   runApp(const MyApp());
 }
 
+//ADD FATEN VIEW
+
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
