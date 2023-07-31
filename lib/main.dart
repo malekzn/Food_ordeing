@@ -2,7 +2,11 @@ import 'package:flutter/material.dart';
 
 void main() {
   //!--- comment ---
+
   //Added ghazal view
+
+  //?--- Added shams_view and it's controller -----
+
   runApp(const MyApp());
 }
 
