@@ -3,6 +3,8 @@ import 'package:flutter/material.dart';
 void main() {
   //!--- comment ---
   runApp(const MyApp());
+
+  //@----- the Correct comment added to Shams------
 }
 
 class MyApp extends StatelessWidget {
