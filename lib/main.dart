@@ -8,10 +8,22 @@ void main() {
 
 
   //!--- comment ---
+  //!--hala write here---
+
+  //?--- Added shams_view and it's controller -----
   runApp(const MyApp());
+
+  //@----- the Correct comment added to Shams------
+  
+  //! Added YamenView
 }
+// HEAD
 //23333333333333
 // 2222222222222
+
+//!---noor-comment---
+
+
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
        //-- LAITH --//
@@ -22,6 +34,7 @@ class MyApp extends StatelessWidget {
       //23232
       title: 'Flutter Demo',
       theme: ThemeData(
+// HEAD
         // This is the theme of your application.
         //
         // Try running your application with "flutter run". You'll see the
@@ -32,6 +45,8 @@ class MyApp extends StatelessWidget {
         // Notice that the counter didn't reset back to zero; the application
         // is not restarted.
         primarySwatch: Colors.red,
+
+
       ),
       home: const MyHomePage(title: 'Flutter Demo Home Page'),
     );
@@ -69,7 +84,7 @@ class _MyHomePageState extends State<MyHomePage> {
       _counter++;
     });
   }
-
+// Allawi hapip kkalbi abo hussin   add by ahmad
   @override
   Widget build(BuildContext context) {
     // This method is rerun every time setState is called, for instance as done
@@ -109,7 +124,7 @@ class _MyHomePageState extends State<MyHomePage> {
             ),
             Text(
               '$_counter',
-              style: Theme.of(context).textTheme.headline4,
+              style: Theme.of(context).textTheme.headlineMedium,
             ),
           ],
         ),
