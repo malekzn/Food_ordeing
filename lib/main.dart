@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 void main() {
   //!--- comment ---
+  //Added ghazal view
   runApp(const MyApp());
 }
 
