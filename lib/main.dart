@@ -3,12 +3,17 @@ import 'package:flutter/material.dart';
 void main() {
   //!--- comment ---
   //!--hala write here---
+
+  //?--- Added shams_view and it's controller -----
   runApp(const MyApp());
+
+  
+  //! Added YamenView
 }
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
-
+       //-- LAITH --//
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
@@ -53,7 +58,7 @@ class _MyHomePageState extends State<MyHomePage> {
       _counter++;
     });
   }
-
+// Allawi hapip kkalbi abo hussin   add by ahmad
   @override
   Widget build(BuildContext context) {
     // This method is rerun every time setState is called, for instance as done
@@ -93,7 +98,7 @@ class _MyHomePageState extends State<MyHomePage> {
             ),
             Text(
               '$_counter',
-              style: Theme.of(context).textTheme.headline4,
+              style: Theme.of(context).textTheme.headlineMedium,
             ),
           ],
         ),
