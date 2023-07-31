@@ -4,6 +4,6 @@ class AhmadView extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(body: Text('Ahmad Zakria'),)
+    return Scaffold(body: Text('Ahmad Zakria'),);
   }
 }
